@@ -157,7 +157,7 @@ export default class GamePage {
                 if (itemsProcessed === numberOfItems) {
 
                     let gamePagesAndFinalPage = /*html*/ ` ${questionCard}
-                    <article class="${question.game}">
+                    <article class="questioncard ${question.game}">
                     <h2>Tak for spillet</h2>
                     <button class="btn" onclick="navigateTo('addQuestions')">Spil igen</button>         
                     </article>

@@ -402,12 +402,16 @@ pages
     max-height: 100vh;
     transform: translate(calc(var(--i, 0)/var(--n)*-100%));
     z-index: -2;
-
+    padding-top: 15%;
 }
 
 .questioncard h2,
 p {
-    color: var(--font_color_dark);
+    color: #000;
+}
+
+#text {
+    color: #000;
 }
 
 #gameContainer article {
