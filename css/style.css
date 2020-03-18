@@ -385,8 +385,13 @@ pages
     width: 95%;
 }
 
+#rules p {
+    color: var(--font_color_light);
+}
+
 
 #gameContainer {
+    color: var(--font_color_dark);
     --n: 1;
     display: flex;
     align-items: center;
@@ -398,6 +403,11 @@ pages
     transform: translate(calc(var(--i, 0)/var(--n)*-100%));
     z-index: -2;
 
+}
+
+.questioncard h2,
+p {
+    color: var(--font_color_dark);
 }
 
 #gameContainer article {
