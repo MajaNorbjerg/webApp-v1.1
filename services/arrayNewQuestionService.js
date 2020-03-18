@@ -16,7 +16,7 @@ class ArrayNewQuestionService {
     }
 
     highlightNumber() {
-        document.querySelector('[for=addedQuestions]').innerHTML = `<p>Dit spilindhold</p> <div id="numberOfRoundsAdded"> ${_arrayNewQuestionService.partyContentArray.length}</div>`
+        document.querySelector('[for=addedQuestions]').innerHTML = `<p class="yourGameContentText">Dit spilindhold</p> <div id="numberOfRoundsAdded"> ${_arrayNewQuestionService.partyContentArray.length}</div>`
         document.querySelector('#numberOfRoundsAdded').classList.add('highlightAnimation');
     }
 

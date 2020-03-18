@@ -34,7 +34,7 @@ export default class AddQuestions {
   template() {
     document.querySelector('#content').innerHTML += /*html*/ `
     <section id="addQuestions" class="page">
-      <div for="addedQuestions" onclick="basket();createAddedQuestionsList()"><p>Dit spilindhold</p><div id="numberOfRoundsAdded">${_arrayNewQuestionService.partyContentArray.length}</div></div>
+      <div for="addedQuestions" onclick="basket();createAddedQuestionsList()"><p class="yourGameContentText">Dit spilindhold</p><div id="numberOfRoundsAdded">${_arrayNewQuestionService.partyContentArray.length}</div></div>
       <img class="goBack" onclick="navigateTo('addPlayers')" src="img/hide.svg">
       <!--<article id="addedQuestionsArticle" class="hide">
       </article>-->

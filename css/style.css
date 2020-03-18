@@ -329,7 +329,7 @@ pages
 
 }
 
-[for=addedQuestions] p b {
+[for=addedQuestions] p {
 
     color: var(--font_color_light);
 }
