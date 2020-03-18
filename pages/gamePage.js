@@ -138,7 +138,7 @@ export default class GamePage {
 
 
                 questionCard += /*html*/ `
-                <article class=" questioncard ${question.game}">
+                <article class="${question.game}">
                 <h2>${gameData.gameTitle}</h2>
                 ${extraInfoBefore}   
                 ${question.questionContent}
