@@ -94,6 +94,10 @@ p {
     color: var(--font_color_light);
 }
 
+#basketPage p {
+    color: var(--font_color_light);
+}
+
 .bold {
     margin-top: 2em;
     font-weight: bold;
@@ -293,17 +297,22 @@ pages
 
 /* ---------- home / warning page ---------- */
 #home {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: auto;
     position: absolute;
+    width: 85%;
+    /* width: 85%; */
+    /* width: 50%;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
 }
 
 #warning {
     opacity: 80%;
     width: var(--standardWidth);
+    /* margin: 0 auto; */
 }
 
 /* ---------- addQuestions page ---------- */

@@ -12,7 +12,7 @@ export default class HomeWarningPage {
     template() {
         document.querySelector('#content').innerHTML += /*html*/ `
         <article id="home" class="page" >
-        <div class="collectionOfItems btn" id="warning" >
+        <div class="collectionOfItems" id="warning" >
      <h1>Drik ansvarligt folkens!</h1><br>
      <b class="yellowText">Mor er her ikke</b> til at sige I skal huske at drikke vand, så ved brug af dette spil, accepterer du at brug af spillet foregår under eget ansvar.
          </div>
